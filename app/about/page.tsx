@@ -14,7 +14,16 @@ export default function About() {
             <li>Tailwind CSS for styling</li>
             <li>Automatic PR analysis via GitHub webhooks</li>
             <li>Slack notifications for code reviews</li>
+            <li>AI-powered code review with inline comments</li>
+            <li>Interactive review buttons (Take Review, AI Review, Snooze)</li>
           </ul>
+        </div>
+
+        <div className="bg-white rounded-lg p-6 shadow-lg space-y-4">
+          <h2 className="text-2xl font-semibold">How It Works</h2>
+          <p className="text-gray-600">
+            When a PR is created, the Oumla Review Assistant automatically analyzes it and posts a summary to Slack with risk assessment, estimated review time, and suggested reviewers.
+          </p>
         </div>
         <a
           href="/"
