@@ -9,7 +9,7 @@ export default function Home() {
           Welcome to the test application for Oumla Review Assistant.
           This Next.js app is used to test PR analysis and Slack notifications.
         </p>
-        <div className="flex gap-4 justify-center pt-4">
+        <div className="flex flex-wrap gap-4 justify-center pt-4">
           <a
             href="https://github.com/ivan-oumla/test-review-assistant"
             target="_blank"
@@ -23,6 +23,12 @@ export default function Home() {
             className="px-6 py-3 bg-white text-gray-900 rounded-lg border-2 border-gray-900 hover:bg-gray-50 transition-colors"
           >
             Learn More
+          </a>
+          <a
+            href="/users"
+            className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+          >
+            View Users
           </a>
           <a
             href="/contact"
