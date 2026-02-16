@@ -9,7 +9,8 @@ export default function Home() {
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl">
           Welcome to the test application for Oumla Review Assistant.
-          This Next.js app is used to test PR analysis and Slack notifications.
+          This Next.js app is used to test PR analysis, Slack notifications,
+          and interactive reviewer assignment features.
         </p>
         <div className="flex flex-wrap gap-4 justify-center pt-4">
           <a
