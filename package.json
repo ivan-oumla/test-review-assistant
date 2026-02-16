@@ -1,6 +1,7 @@
 {
   "name": "test-review-assistant",
   "version": "0.1.0",
+  "description": "Test application for Oumla Review Assistant",
   "private": true,
   "scripts": {
     "dev": "next dev",
