@@ -28,9 +28,10 @@ export default function Contact() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-teal-100">
       <main className="max-w-2xl w-full p-8 space-y-6">
-        <h1 className="text-4xl font-bold text-gray-900">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-gray-900">Get in Touch</h1>
         <p className="text-lg text-gray-700">
           Have questions about the Oumla Review Assistant? We'd love to hear from you!
+          Our team typically responds within 24 hours.
         </p>
 
         <form onSubmit={handleSubmit} className="bg-white rounded-lg p-6 shadow-lg space-y-4">
