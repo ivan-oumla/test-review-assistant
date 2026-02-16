@@ -38,6 +38,12 @@ export default function Home() {
           >
             Contact Us
           </a>
+          <a
+            href="/settings"
+            className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+          >
+            Settings
+          </a>
         </div>
       </main>
       <Footer />
